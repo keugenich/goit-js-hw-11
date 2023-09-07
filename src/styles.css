@@ -1,0 +1,74 @@
+/* Заголовок та форма пошуку */
+header {
+  background-color: lightskyblue;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.search-form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type='submit'] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Галерея та картки зображень */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.photo-card {
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+}
+
+.photo-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
+.info-item {
+  margin: 0;
+}
+
+.load-more {
+  display: none;
+}
