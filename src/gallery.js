@@ -47,3 +47,5 @@ export function createPhotoCard(image) {
 
     return photoCard;
 }
+
+
